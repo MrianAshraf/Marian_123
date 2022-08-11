@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+             android:background="#77B1DF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ImageAndo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ios"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <TextView
+                android:id="@+id/L1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/ImageAndo"
+                android:text="Part 1 (Java SE)"
+                />
+            <TextView
+                android:id="@+id/L2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L1"
+                android:text="1. Introduction to Java"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/L3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L2"
+                android:text="Programming"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L3"
+                android:text="⚫ Overview."
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L4"
+                android:text="• Compiler and JVM"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L5"
+                android:text=". Project Structure Hello World Application"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L6"
+                android:text="Variables and Data types"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L7"
+                android:text="Operators Conditional statements (IF Switch Loops (For-While - Do While)"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L8"
+                android:text="   2. Basics"
+                android:layout_marginTop="20dp"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/L10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/ImageAndo"
+                app:layout_constraintStart_toStartOf="@id/ImageAndo"
+                app:layout_constraintTop_toBottomOf="@id/L9"
+                android:text="
+⚫ nested loops
+
+Strings
+
+Arrays"
+
+                android:layout_margin="20dp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
